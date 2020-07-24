@@ -36,5 +36,5 @@ p <- ggplot(home_data, aes(x = Date, y = CountryName, fill = `Stay At Home Requi
 
 home <- ggplotly(p)
 
-saveWidget(home, "home.html")
+saveWidget(home, "stay_home_status.html")
 
